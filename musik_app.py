@@ -51,18 +51,38 @@ with tab4:
     st.dataframe(partner_data)
 
 with tab5:
-    st.subheader("Use Case – Strategievorschlag")
+    st.subheader("Individueller Vorschlag für deine Kampagne")
 
-    musikstil = st.selectbox("Musikstil:", ["Indie", "Pop", "Elektro", "Hip-Hop"])
+    musikstil = st.selectbox("Musikstil auswählen:", ["Indie", "Pop", "Elektro", "Hip-Hop"])
     zielgruppe = st.selectbox("Zielgruppe:", ["jung & urban", "alternativ", "Mainstream"])
     budget = st.selectbox("Promo-Budget:", ["niedrig", "mittel", "hoch"])
 
-    if st.button("Strategie anzeigen"):
+    if st.button("Empfehlung generieren"):
+        st.markdown("### 📋 Deine Strategie:")
+
         if musikstil == "Indie" and zielgruppe == "jung & urban":
-            st.write("Empfehlung: Auftritt im Molotow + PR über Bedroomdisco + TikTok-Kampagne mit @indie.hh")
-        elif musikstil == "Hip-Hop" and budget == "hoch":
-            st.write("Empfehlung: Showcase mit @raptalk.de, Beitrag bei Backspin, Vertrieb via Groove Attack.")
+            st.markdown("""
+            - **🎤 Venue:** Molotow  
+            - **📱 Creator:** @indie.hh  
+            - **📰 Medium:** Bedroomdisco  
+            - **🤝 Partner:** Pop Office Hamburg  
+            - **💡 Strategie:** Showcase + TikTok-Kampagne + Blog-Feature + Liveförderung
+            """)
         elif musikstil == "Elektro":
-            st.write("Empfehlung: Clubkooperation mit Uebel & Gefährlich + Creator-Kampagne @elektro.vibes + Tonspion-Feature.")
+            st.markdown("""
+            - **🎤 Venue:** Uebel & Gefährlich  
+            - **📱 Creator:** @elektro.vibes  
+            - **📰 Medium:** Tonspion  
+            - **🤝 Partner:** Groove Attack  
+            - **💡 Strategie:** Clubnacht + Creator-Reel + Online-Feature + Vertriebsdeal
+            """)
+        elif musikstil == "Hip-Hop" and budget == "hoch":
+            st.markdown("""
+            - **🎤 Venue:** Goldener Salon  
+            - **📱 Creator:** @raptalk.de  
+            - **📰 Medium:** Diffus  
+            - **🤝 Partner:** Backspin  
+            - **💡 Strategie:** Showcase + Creator-Clip + Interview + Magazinbeitrag
+            """)
         else:
-            st.write("Empfehlung: Datenbasis noch im Aufbau – spezifischere Auswahl nötig.")
+            st.info("Die Datenlage für diese Kombination ist noch im Aufbau – bald verfügbar!")
