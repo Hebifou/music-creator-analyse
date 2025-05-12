@@ -31,7 +31,7 @@ st.set_page_config(page_title="Musik-Marketinganalyse")
 st.title("🎶 Lokale Marketinganalyse für Musikprojekte")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "Venues", "Creator", "📰 Medien", "🤝 Partner", "Empfehlung"
+    "Venues", "Creator", "📰 Medien", "Partner", "Empfehlung"
 ])
 
 with tab1:
