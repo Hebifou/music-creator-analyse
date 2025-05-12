@@ -31,7 +31,7 @@ partner_data = pd.DataFrame({
 
 # Auswahl-Tab
 st.set_page_config(page_title="Musik-Marketinganalyse")
-st.title("🎶 Marketing-Analyse für Musikprojekte")
+st.title("Marketing-Analyse für Musikprojekte")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "Auswahl", "Venues", "Creator", "Medien", "Empfehlung"
