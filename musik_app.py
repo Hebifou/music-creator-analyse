@@ -62,27 +62,27 @@ with tab5:
 
         if musikstil == "Indie" and zielgruppe == "jung & urban":
             st.markdown("""
-            - **🎤 Venue:** Molotow  
-            - **📱 Creator:** @indie.hh  
-            - **📰 Medium:** Bedroomdisco  
-            - **🤝 Partner:** Pop Office Hamburg  
-            - **💡 Strategie:** Showcase + TikTok-Kampagne + Blog-Feature + Liveförderung
+            - **Venue:** Molotow  
+            - **Creator:** @indie.hh  
+            - **Medium:** Bedroomdisco  
+            - **Partner:** Pop Office Hamburg  
+            - **Strategie:** Showcase + TikTok-Kampagne + Blog-Feature + Liveförderung
             """)
         elif musikstil == "Elektro":
             st.markdown("""
-            - **🎤 Venue:** Uebel & Gefährlich  
-            - **📱 Creator:** @elektro.vibes  
-            - **📰 Medium:** Tonspion  
-            - **🤝 Partner:** Groove Attack  
-            - **💡 Strategie:** Clubnacht + Creator-Reel + Online-Feature + Vertriebsdeal
+            - **Venue:** Uebel & Gefährlich  
+            - **Creator:** @elektro.vibes  
+            - **Medium:** Tonspion  
+            - **Partner:** Groove Attack  
+            - **Strategie:** Clubnacht + Creator-Reel + Online-Feature + Vertriebsdeal
             """)
         elif musikstil == "Hip-Hop" and budget == "hoch":
             st.markdown("""
-            - **🎤 Venue:** Goldener Salon  
-            - **📱 Creator:** @raptalk.de  
-            - **📰 Medium:** Diffus  
-            - **🤝 Partner:** Backspin  
-            - **💡 Strategie:** Showcase + Creator-Clip + Interview + Magazinbeitrag
+            - **Venue:** Goldener Salon  
+            - **Creator:** @raptalk.de  
+            - **Medium:** Diffus  
+            - **Partner:** Backspin  
+            - **Strategie:** Showcase + Creator-Clip + Interview + Magazinbeitrag
             """)
         else:
             st.info("Die Datenlage für diese Kombination ist noch im Aufbau – bald verfügbar!")
