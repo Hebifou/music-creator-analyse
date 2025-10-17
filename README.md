@@ -1,6 +1,6 @@
 # Music Marketing App – Concept Prototype
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://share.streamlit.io/YOUR_USERNAME/music_marketing_app/main/musik_app.py](https://music-creator-analyse.streamlit.app/))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://music-creator-analyse.streamlit.app/)
 
 *A data-inspired prototype exploring how creative professionals in the music industry  
 could use interactive tools to find venues, collaborators, and media partners.*
