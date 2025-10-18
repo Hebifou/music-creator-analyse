@@ -39,13 +39,5 @@ but a conceptual exploration of what a *data-driven creative assistant* might lo
 
 ## Run Locally
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/music_marketing_app.git
-cd music_marketing_app
-
-# Install dependencies
-pip install -r requirements.txt
-
 # Run the app
 streamlit run musik_app.py
