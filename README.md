@@ -36,8 +36,3 @@ but a conceptual exploration of what a *data-driven creative assistant* might lo
 - **Python** — logic, mapping, and interface integration  
 
 ---
-
-## Run Locally
-
-# Run the app
-streamlit run musik_app.py
